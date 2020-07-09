@@ -1,0 +1,27 @@
+.item {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 1px solid #cccccc;
+    color: #083934;
+    cursor: pointer;
+    margin: 3px;
+    text-align: center;
+}
+
+.data {
+    width: 20px;
+}
+
+.item.disabled {
+    color: #cccccc;
+    cursor: not-allowed;
+}
+
+.page {
+    margin-left: 10px;
+}
+.active {
+    border: none;
+    color: #f40;
+    cursor: auto;
+}
